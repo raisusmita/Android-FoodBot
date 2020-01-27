@@ -1,0 +1,95 @@
+0,HUNGRY,*,*,Grab some food.,foodCalories.aiml
+0,_ HUNGRY,*,*,<srai>HUNGRY</srai>,foodCalories.aiml
+0,HUNGRY _,*,*,<srai>HUNGRY</srai>,foodCalories.aiml
+0,_ HUNGRY *,*,*,<srai>HUNGRY</srai>,foodCalories.aiml
+0,FOOD,*,*,<random>#Newline<li> I am here to talk about food calories.</li>#Newline<li> Ask me anything about food calories.</li>#Newline</random>,foodCalories.aiml
+0,_ FOOD,*,*,<srai>FOOD</srai>,foodCalories.aiml
+0,FOOD _,*,*,<srai>FOOD</srai>,foodCalories.aiml
+0,_ FOOD *,*,*,<srai>FOOD</srai>,foodCalories.aiml
+0,MILK,*,*,One serving of whole milk is equal to 1 cup and contains 146 calories.,foodCalories.aiml
+0,_ MILK,*,*,<srai>MILK</srai>,foodCalories.aiml
+0,MILK _,*,*,<srai>MILK</srai>,foodCalories.aiml
+0,_ MILK *,*,*,<srai>MILK</srai>,foodCalories.aiml
+0,VEG MOMO,*,*,A plate of Steamed Veg Momos which contains 10 pieces#Comma have 350 calories whereas the fried version contains about 904 calories which is almost triple.,foodCalories.aiml
+0,_ VEG MOMO,*,*,<srai>VEG MOMO</srai>,foodCalories.aiml
+0,VEG MOMO _,*,*,<srai>VEG MOMO</srai>,foodCalories.aiml
+0,_ VEG MOMO *,*,*,<srai>VEG MOMO</srai>,foodCalories.aiml
+0,PANEER MOMO,*,*,One plate of Steamed Paneer Momos can serve you easily 300 calories. A plate of Fried Paneer Momos has somewhere around 1000-1100 calories.,foodCalories.aiml
+0,_ PANEER MOMO,*,*,<srai>PANEER MOMO</srai>,foodCalories.aiml
+0,PANEER MOMO _,*,*,<srai>PANEER MOMO</srai>,foodCalories.aiml
+0,_ PANEER MOMO *,*,*,<srai>PANEER MOMO</srai>,foodCalories.aiml
+0,BUFF MOMO,*,*,One plate of Steamed Buff Momos can serve you easily 395 calories.,foodCalories.aiml
+0,_ BUFF MOMO,*,*,<srai>BUFF MOMO</srai>,foodCalories.aiml
+0,BUFF MOMO _,*,*,<srai>BUFF MOMO</srai>,foodCalories.aiml
+0,_ BUFF MOMO *,*,*,<srai>BUFF MOMO</srai>,foodCalories.aiml
+0,CHICKEN MOMO,*,*,A plate of steamed Chicken Momos contains 390 calories and a plate of fried Chicken Momos contains 1200 calories. One plate of Fried Chicken Momos covers half of your daily calorie requirement.,foodCalories.aiml
+0,_ CHICKEN MOMO,*,*,<srai>CHICKEN MOMO</srai>,foodCalories.aiml
+0,CHICKEN MOMO _,*,*,<srai>CHICKEN MOMO</srai>,foodCalories.aiml
+0,_ CHICKEN MOMO *,*,*,<srai>CHICKEN MOMO</srai>,foodCalories.aiml
+0,VEG CHOWMIN,*,*,A plate of Veg Chowmin contains 273 calories.,foodCalories.aiml
+0,_ VEG CHOWMIN,*,*,<srai>VEG CHOWMIN</srai>,foodCalories.aiml
+0,VEG CHOWMIN _,*,*,<srai>VEG CHOWMIN</srai>,foodCalories.aiml
+0,_ VEG CHOWMIN *,*,*,<srai>VEG CHOWMIN</srai>,foodCalories.aiml
+0,CHICKEN CHOWMIN,*,*,A plate of Chicken Chowmin contains 295 calories.,foodCalories.aiml
+0,_ CHICKEN CHOWMIN,*,*,<srai>CHICKEN CHOWMIN</srai>,foodCalories.aiml
+0,CHICKEN CHOWMIN _,*,*,<srai>CHICKEN CHOWMIN</srai>,foodCalories.aiml
+0,_ CHICKEN CHOWMIN *,*,*,<srai>CHICKEN CHOWMIN</srai>,foodCalories.aiml
+0,BUFF CHOWMIN,*,*,A plate of Chicken Chowmin contains 310 calories.,foodCalories.aiml
+0,_ BUFF CHOWMIN,*,*,<srai>BUFF CHOWMIN</srai>,foodCalories.aiml
+0,BUFF CHOWMIN _,*,*,<srai>BUFF CHOWMIN</srai>,foodCalories.aiml
+0,_ BUFF CHOWMIN *,*,*,<srai>BUFF CHOWMIN</srai>,foodCalories.aiml
+0,DARK CHOCOLATE,*,*,One bar (162g) of Dark Chocolate contains 884 calories.,foodCalories.aiml
+0,_ DARK CHOCOLATE,*,*,<srai>DARK CHOCOLATE</srai>,foodCalories.aiml
+0,DARK CHOCOLATE _,*,*,<srai>DARK CHOCOLATE</srai>,foodCalories.aiml
+0,_ DARK CHOCOLATE *,*,*,<srai>DARK CHOCOLATE</srai>,foodCalories.aiml
+0,COOKED NOODLES,*,*,A plate of cooked noodles contains 138 calories.,foodCalories.aiml
+0,_ COOKED NOODLES,*,*,<srai>COOKED NOODLES</srai>,foodCalories.aiml
+0,COOKED NOODLES _,*,*,<srai>COOKED NOODLES</srai>,foodCalories.aiml
+0,_ COOKED NOODLES *,*,*,<srai>COOKED NOODLES</srai>,foodCalories.aiml
+0,DRY NOODLES,*,*,A plate of dry noodles contains 385 calories.,foodCalories.aiml
+0,_ DRY NOODLES,*,*,<srai>DRY NOODLES</srai>,foodCalories.aiml
+0,DRY NOODLES _,*,*,<srai>DRY NOODLES</srai>,foodCalories.aiml
+0,_ DRY NOODLES *,*,*,<srai>DRY NOODLES</srai>,foodCalories.aiml
+0,THUKPA,*,*,One serving of Thukpa contains 439 calories.,foodCalories.aiml
+0,_ THUKPA,*,*,<srai>THUKPA</srai>,foodCalories.aiml
+0,THUKPA _,*,*,<srai>THUKPA</srai>,foodCalories.aiml
+0,_ THUKPA *,*,*,<srai>THUKPA</srai>,foodCalories.aiml
+0,RICE,*,*,1 bowl of cooked rice has about 136 calories and a plateful of cooked rice has 272 calories which is about 80 grams a plate.,foodCalories.aiml
+0,_ RICE,*,*,<srai>RICE</srai>,foodCalories.aiml
+0,RICE _,*,*,<srai>RICE</srai>,foodCalories.aiml
+0,_ RICE *,*,*,<srai>RICE</srai>,foodCalories.aiml
+0,VANILLA ICECREAM,*,*,One scoop of regular vanilla ice cream has 137 calories.,foodCalories.aiml
+0,_ VANILLA ICECREAM,*,*,<srai>VANILLA ICECREAM</srai>,foodCalories.aiml
+0,VANILLA ICECREAM _,*,*,<srai>VANILLA ICECREAM</srai>,foodCalories.aiml
+0,_ VANILLA ICECREAM *,*,*,<srai>VANILLA ICECREAM</srai>,foodCalories.aiml
+0,STRAWBERRY ICECREAM,*,*,One scoop of regular strawberry ice cream has 127 calories.,foodCalories.aiml
+0,_ STRAWBERRY ICECREAM,*,*,<srai>STRAWBERRY ICECREAM</srai>,foodCalories.aiml
+0,STRAWBERRY ICECREAM _,*,*,<srai>STRAWBERRY ICECREAM</srai>,foodCalories.aiml
+0,_ STRAWBERRY ICECREAM *,*,*,<srai>STRAWBERRY ICECREAM</srai>,foodCalories.aiml
+0,CHOCOLATE ICECREAM,*,*,One scoop of regular chocolate ice cream has 143 calories.,foodCalories.aiml
+0,_ CHOCOLATE ICECREAM,*,*,<srai>CHOCOLATE ICECREAM</srai>,foodCalories.aiml
+0,CHOCOLATE ICECREAM _,*,*,<srai>CHOCOLATE ICECREAM</srai>,foodCalories.aiml
+0,_ CHOCOLATE ICECREAM *,*,*,<srai>CHOCOLATE ICECREAM</srai>,foodCalories.aiml
+0,WATERMELON,*,*,One wedge (approx 1/16 of melon) has 87 calories.,foodCalories.aiml
+0,_ WATERMELON,*,*,<srai>WATERMELON</srai>,foodCalories.aiml
+0,WATERMELON _,*,*,<srai>WATERMELON</srai>,foodCalories.aiml
+0,_ WATERMELON *,*,*,<srai>WATERMELON</srai>,foodCalories.aiml
+0,SAMOSA,*,*,One regular samosa contains 262 calories.,foodCalories.aiml
+0,_ SAMOSA,*,*,<srai>SAMOSA</srai>,foodCalories.aiml
+0,SAMOSA _,*,*,<srai>SAMOSA</srai>,foodCalories.aiml
+0,_ SAMOSA *,*,*,<srai>SAMOSA</srai>,foodCalories.aiml
+0,HAMBURGER,*,*,One regular hamburger has 250 calories.,foodCalories.aiml
+0,_ HAMBURGER,*,*,<srai>HAMBURGER</srai>,foodCalories.aiml
+0,HAMBURGER _,*,*,<srai>HAMBURGER</srai>,foodCalories.aiml
+0,_ HAMBURGER *,*,*,<srai>HAMBURGER</srai>,foodCalories.aiml
+0,_ PIZZA,*,*,<srai>PIZZA</srai>,foodCalories.aiml
+0,PIZZA _,*,*,<srai>PIZZA</srai>,foodCalories.aiml
+0,_ PIZZA *,*,*,<srai>PIZZA</srai>,foodCalories.aiml
+0,EGG,*,*,One boiled egg contains 155 calories.,foodCalories.aiml
+0,_ EGG,*,*,<srai>EGG</srai>,foodCalories.aiml
+0,EGG _,*,*,<srai>EGG</srai>,foodCalories.aiml
+0,_ EGG *,*,*,<srai>EGG</srai>,foodCalories.aiml
+0,LEMONADE,*,*,One serving 1 cup (247 g) of Lemonade contains 99 calories.,foodCalories.aiml
+0,_ LEMONADE,*,*,<srai>LEMONADE</srai>,foodCalories.aiml
+0,LEMONADE _,*,*,<srai>LEMONADE</srai>,foodCalories.aiml
+0,_ LEMONADE *,*,*,<srai>LEMONADE</srai>,foodCalories.aiml

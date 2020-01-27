@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: bot_profile.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: February 20, 2013 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2013 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category>
+<pattern>HUNGRY</pattern>
+<template> Grab some food. </template>
+</category>
+
+<category>
+<pattern>_ HUNGRY</pattern>
+<template><srai>HUNGRY</srai></template>
+</category>
+
+<category>
+<pattern>HUNGRY _</pattern>
+<template><srai>HUNGRY</srai></template>
+</category>
+
+<category>
+<pattern>_ HUNGRY *</pattern>
+<template><srai>HUNGRY</srai></template>
+</category>
+
+<!-- ASK ABOUT -->
+<category>
+<pattern>FOOD</pattern>
+<template>
+<random>
+<li> I am here to talk about food calories.</li>
+<li> Ask me anything about food calories.</li>
+</random>
+ </template>
+</category>
+
+<category>
+<pattern>_ FOOD</pattern>
+<template><srai>FOOD</srai></template>
+</category>
+
+<category>
+<pattern>FOOD _</pattern>
+<template><srai>FOOD</srai></template>
+</category>
+
+<category>
+<pattern>_ FOOD *</pattern>
+<template><srai>FOOD</srai></template>
+</category>
+
+<!-- Calories -->
+<category>
+<pattern>MILK</pattern>
+<template>One serving of whole milk is equal to 1 cup and contains 146 calories. </template>
+</category>
+
+<category>
+<pattern>_ MILK</pattern>
+<template><srai>MILK</srai></template>
+</category>
+
+<category>
+<pattern>MILK _</pattern>
+<template><srai>MILK</srai></template>
+</category>
+
+<category>
+<pattern>_ MILK *</pattern>
+<template><srai>MILK</srai></template>
+</category>
+
+<!-- Veg Momo -->
+<category>
+<pattern>VEG MOMO</pattern>
+<template>A plate of Steamed Veg Momos which contains 10 pieces, have 350 calories whereas the fried version contains about 904 calories which is almost triple.
+ </template>
+</category>
+
+<category>
+<pattern>_ VEG MOMO</pattern>
+<template><srai>VEG MOMO</srai></template>
+</category>
+
+<category>
+<pattern>VEG MOMO _</pattern>
+<template><srai>VEG MOMO</srai></template>
+</category>
+
+<category>
+<pattern>_ VEG MOMO *</pattern>
+<template><srai>VEG MOMO</srai></template>
+</category>
+
+<!-- Paneer Momo -->
+<category>
+<pattern>PANEER MOMO</pattern>
+<template>One plate of Steamed Paneer Momos can serve you easily 300 calories. A plate of Fried Paneer Momos has somewhere around 1000-1100 calories. </template>
+</category>
+
+<category>
+<pattern>_ PANEER MOMO</pattern>
+<template><srai>PANEER MOMO</srai></template>
+</category>
+
+<category>
+<pattern>PANEER MOMO _</pattern>
+<template><srai>PANEER MOMO</srai></template>
+</category>
+
+<category>
+<pattern>_ PANEER MOMO *</pattern>
+<template><srai>PANEER MOMO</srai></template>
+</category>
+
+<!-- Buff Momo -->
+<category>
+<pattern>BUFF MOMO</pattern>
+<template>One plate of Steamed Buff Momos can serve you easily 395 calories.</template>
+</category>
+
+<category>
+<pattern>_ BUFF MOMO</pattern>
+<template><srai>BUFF MOMO</srai></template>
+</category>
+
+<category>
+<pattern>BUFF MOMO _</pattern>
+<template><srai>BUFF MOMO</srai></template>
+</category>
+
+<category>
+<pattern>_ BUFF MOMO *</pattern>
+<template><srai>BUFF MOMO</srai></template>
+</category>
+
+<!-- Chicken Momo -->
+<category>
+<pattern>CHICKEN MOMO</pattern>
+<template>A plate of steamed Chicken Momos contains 390 calories and a plate of fried Chicken Momos contains 1200 calories. One plate of Fried Chicken Momos covers half of your daily calorie requirement.</template>
+</category>
+
+<category>
+<pattern>_ CHICKEN MOMO</pattern>
+<template><srai>CHICKEN MOMO</srai></template>
+</category>
+
+<category>
+<pattern>CHICKEN MOMO _</pattern>
+<template><srai>CHICKEN MOMO</srai></template>
+</category>
+
+<category>
+<pattern>_ CHICKEN MOMO *</pattern>
+<template><srai>CHICKEN MOMO</srai></template>
+</category>
+
+<!-- Veg Chowmin -->
+<category>
+<pattern>VEG CHOWMIN</pattern>
+<template>A plate of Veg Chowmin contains 273 calories.</template>
+</category>
+
+<category>
+<pattern>_ VEG CHOWMIN</pattern>
+<template><srai>VEG CHOWMIN</srai></template>
+</category>
+
+<category>
+<pattern>VEG CHOWMIN _</pattern>
+<template><srai>VEG CHOWMIN</srai></template>
+</category>
+
+<category>
+<pattern>_ VEG CHOWMIN *</pattern>
+<template><srai>VEG CHOWMIN</srai></template>
+</category>
+
+<!-- Chicken Chowmin -->
+<category>
+<pattern>CHICKEN CHOWMIN</pattern>
+<template>A plate of Chicken Chowmin contains 295 calories.</template>
+</category>
+
+<category>
+<pattern>_ CHICKEN CHOWMIN</pattern>
+<template><srai>CHICKEN CHOWMIN</srai></template>
+</category>
+
+<category>
+<pattern>CHICKEN CHOWMIN _</pattern>
+<template><srai>CHICKEN CHOWMIN</srai></template>
+</category>
+
+<category>
+<pattern>_ CHICKEN CHOWMIN *</pattern>
+<template><srai>CHICKEN CHOWMIN</srai></template>
+</category>
+
+<!-- Buff Chowmin -->
+<category>
+<pattern>BUFF CHOWMIN</pattern>
+<template>A plate of Chicken Chowmin contains 310 calories.</template>
+</category>
+
+<category>
+<pattern>_ BUFF CHOWMIN</pattern>
+<template><srai>BUFF CHOWMIN</srai></template>
+</category>
+
+<category>
+<pattern>BUFF CHOWMIN _</pattern>
+<template><srai>BUFF CHOWMIN</srai></template>
+</category>
+
+<category>
+<pattern>_ BUFF CHOWMIN *</pattern>
+<template><srai>BUFF CHOWMIN</srai></template>
+</category>
+
+<!-- Dark Chocolate -->
+<category>
+<pattern>DARK CHOCOLATE</pattern>
+<template>One bar (162g) of Dark Chocolate contains 884 calories.</template>
+</category>
+
+<category>
+<pattern>_ DARK CHOCOLATE</pattern>
+<template><srai>DARK CHOCOLATE</srai></template>
+</category>
+
+<category>
+<pattern>DARK CHOCOLATE _</pattern>
+<template><srai>DARK CHOCOLATE</srai></template>
+</category>
+
+<category>
+<pattern>_ DARK CHOCOLATE *</pattern>
+<template><srai>DARK CHOCOLATE</srai></template>
+</category>
+
+<!-- Cooked Noodles -->
+<category>
+<pattern>COOKED NOODLES</pattern>
+<template>A plate of cooked noodles contains 138 calories.</template>
+</category>
+
+<category>
+<pattern>_ COOKED NOODLES</pattern>
+<template><srai>COOKED NOODLES</srai></template>
+</category>
+
+<category>
+<pattern>COOKED NOODLES _</pattern>
+<template><srai>COOKED NOODLES</srai></template>
+</category>
+
+<category>
+<pattern>_ COOKED NOODLES *</pattern>
+<template><srai>COOKED NOODLES</srai></template>
+</category>
+
+<!-- Dry Noodles -->
+<category>
+<pattern>DRY NOODLES</pattern>
+<template>A plate of dry noodles contains 385 calories.</template>
+</category>
+
+<category>
+<pattern>_ DRY NOODLES</pattern>
+<template><srai>DRY NOODLES</srai></template>
+</category>
+
+<category>
+<pattern>DRY NOODLES _</pattern>
+<template><srai>DRY NOODLES</srai></template>
+</category>
+
+<category>
+<pattern>_ DRY NOODLES *</pattern>
+<template><srai>DRY NOODLES</srai></template>
+</category>
+
+<!-- Thukpa -->
+<category>
+<pattern>THUKPA</pattern>
+<template>One serving of Thukpa contains 439 calories.</template>
+</category>
+
+<category>
+<pattern>_ THUKPA</pattern>
+<template><srai>THUKPA</srai></template>
+</category>
+
+<category>
+<pattern>THUKPA _</pattern>
+<template><srai>THUKPA</srai></template>
+</category>
+
+<category>
+<pattern>_ THUKPA *</pattern>
+<template><srai>THUKPA</srai></template>
+</category>
+
+
+<!-- Rice -->
+<category>
+<pattern>RICE</pattern>
+<template>1 bowl of cooked rice has about 136 calories and a plateful of cooked rice has 272 calories which is about 80 grams a plate.</template>
+</category>
+
+<category>
+<pattern>_ RICE</pattern>
+<template><srai>RICE</srai></template>
+</category>
+
+<category>
+<pattern>RICE _</pattern>
+<template><srai>RICE</srai></template>
+</category>
+
+<category>
+<pattern>_ RICE *</pattern>
+<template><srai>RICE</srai></template>
+</category>
+
+<!-- Vanilla Ice cream -->
+<category>
+<pattern>VANILLA ICECREAM</pattern>
+<template>One scoop of regular vanilla ice cream has 137 calories.</template>
+</category>
+
+<category>
+<pattern>_ VANILLA ICECREAM</pattern>
+<template><srai>VANILLA ICECREAM</srai></template>
+</category>
+
+<category>
+<pattern>VANILLA ICECREAM _</pattern>
+<template><srai>VANILLA ICECREAM</srai></template>
+</category>
+
+<category>
+<pattern>_ VANILLA ICECREAM *</pattern>
+<template><srai>VANILLA ICECREAM</srai></template>
+</category>
+
+<!-- Strawberry Ice cream -->
+<category>
+<pattern>STRAWBERRY ICECREAM</pattern>
+<template>One scoop of regular strawberry ice cream has 127 calories.</template>
+</category>
+
+<category>
+<pattern>_ STRAWBERRY ICECREAM</pattern>
+<template><srai>STRAWBERRY ICECREAM</srai></template>
+</category>
+
+<category>
+<pattern>STRAWBERRY ICECREAM _</pattern>
+<template><srai>STRAWBERRY ICECREAM</srai></template>
+</category>
+
+<category>
+<pattern>_ STRAWBERRY ICECREAM *</pattern>
+<template><srai>STRAWBERRY ICECREAM</srai></template>
+</category>
+
+<!-- Chocolate Ice cream -->
+<category>
+<pattern>CHOCOLATE ICECREAM</pattern>
+<template>One scoop of regular chocolate ice cream has 143 calories.</template>
+</category>
+
+<category>
+<pattern>_ CHOCOLATE ICECREAM</pattern>
+<template><srai>CHOCOLATE ICECREAM</srai></template>
+</category>
+
+<category>
+<pattern>CHOCOLATE ICECREAM _</pattern>
+<template><srai>CHOCOLATE ICECREAM</srai></template>
+</category>
+
+<category>
+<pattern>_ CHOCOLATE ICECREAM *</pattern>
+<template><srai>CHOCOLATE ICECREAM</srai></template>
+</category>
+
+<!-- Watermelon -->
+<category>
+<pattern>WATERMELON</pattern>
+<template>One wedge (approx 1/16 of melon) has 87 calories.</template>
+</category>
+
+<category>
+<pattern>_ WATERMELON</pattern>
+<template><srai>WATERMELON</srai></template>
+</category>
+
+<category>
+<pattern>WATERMELON _</pattern>
+<template><srai>WATERMELON</srai></template>
+</category>
+
+<category>
+<pattern>_ WATERMELON *</pattern>
+<template><srai>WATERMELON</srai></template>
+</category>
+
+<!-- Samosa -->
+<category>
+<pattern>SAMOSA</pattern>
+<template>One regular samosa contains 262 calories.</template>
+</category>
+
+<category>
+<pattern>_ SAMOSA</pattern>
+<template><srai>SAMOSA</srai></template>
+</category>
+
+<category>
+<pattern>SAMOSA _</pattern>
+<template><srai>SAMOSA</srai></template>
+</category>
+
+<category>
+<pattern>_ SAMOSA *</pattern>
+<template><srai>SAMOSA</srai></template>
+</category>
+
+<!-- Ham Burger -->
+<category>
+<pattern>HAMBURGER</pattern>
+<template>One regular hamburger has 250 calories.</template>
+</category>
+
+<category>
+<pattern>_ HAMBURGER</pattern>
+<template><srai>HAMBURGER</srai></template>
+</category>
+
+<category>
+<pattern>HAMBURGER _</pattern>
+<template><srai>HAMBURGER</srai></template>
+</category>
+
+<category>
+<pattern>_ HAMBURGER *</pattern>
+<template><srai>HAMBURGER</srai></template>
+</category>
+
+<!-- Pizza -->
+<category>
+<pattern>PIZZA</pattern>
+<template> A slice of fast-food cheese pizza weighing approximately 103 g contains 272 calories.</template>
+</category>
+
+<category>
+<pattern>_ PIZZA</pattern>
+<template><srai>PIZZA</srai></template>
+</category>
+
+<category>
+<pattern>PIZZA _</pattern>
+<template><srai>PIZZA</srai></template>
+</category>
+
+<category>
+<pattern>_ PIZZA *</pattern>
+<template><srai>PIZZA</srai></template>
+</category>
+
+<!-- EGG -->
+<category>
+<pattern>EGG</pattern>
+<template> One boiled egg contains 155 calories.</template>
+</category>
+
+<category>
+<pattern>_ EGG</pattern>
+<template><srai>EGG</srai></template>
+</category>
+
+<category>
+<pattern>EGG _</pattern>
+<template><srai>EGG</srai></template>
+</category>
+
+<category>
+<pattern>_ EGG *</pattern>
+<template><srai>EGG</srai></template>
+</category>
+
+<!-- Lemonade -->
+<category>
+<pattern>LEMONADE</pattern>
+<template> One serving 1 cup (247 g) of Lemonade contains 99 calories.</template>
+</category>
+
+<category>
+<pattern>_ LEMONADE</pattern>
+<template><srai>LEMONADE</srai></template>
+</category>
+
+<category>
+<pattern>LEMONADE _</pattern>
+<template><srai>LEMONADE</srai></template>
+</category>
+
+<category>
+<pattern>_ LEMONADE *</pattern>
+<template><srai>LEMONADE</srai></template>
+</category>
+
+</aiml>
